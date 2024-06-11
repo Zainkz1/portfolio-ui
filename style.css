@@ -13,11 +13,10 @@ body {
   font-weight: 700;
   font-size: 44px;
   line-height: 60px;
-  width: 506px;
+
   margin: 0px 0px 40px 0px;
 }
 .description {
-  width: 497px;
   font-weight: 400;
   line-height: 23.5px;
   font-size: 16px;
@@ -39,29 +38,17 @@ body {
 }
 .post-section {
   background-color: #edf7fa;
-  height: 420px;
+  
 }
 .post-title {
   margin: 0px auto 0px 0px;
   font-weight: 400;
   font-size: 22px;
 }
-.design-card {
-  background-color: #ffffff;
-  padding: 20px;
-  width: 418px;
-  height: 295px;
-  margin: 0px 148px 0px 0px;
+.card-h{
+  font-size: 26px;
 }
 
-.cards {
-  margin-left: -150px !important;
-  background-color: #ffffff;
-  padding: 20px;
-  width: 418px;
-  height: 295px;
-  margin: 0px 148px 0px 0px;
-}
 .design-pettern {
   color: #000000;
   height: 34px;
@@ -146,7 +133,13 @@ body {
 
 }
 .img{
- margin-top: 140px;
-
+height: 243px;
+width: 243px;
 }
+ @media only screen and (max-width: 600px) {
+.column-revers {
+  display: flex;
+  flex-direction: column-reverse;
 
+  } 
+ }
